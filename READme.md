@@ -20,8 +20,6 @@ PMS is simple crud application that provides features such as adding, editing, r
   * JavaScript library used for building user interfaces
 * Vite
   * Creating new React js project.
-* React Router Dom V6
-  * Routing library for react applications.
 * Fetch API 
   * For handling API requests
 * Redux toolkit
