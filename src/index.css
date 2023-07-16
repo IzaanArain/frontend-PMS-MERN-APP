@@ -1,0 +1,71 @@
+
+
+.Navbar{
+    background-color:  #063970;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.dashboard{
+    height: 80vh;
+    display: flex;
+    padding: 1rem;
+    background-color: azure;
+}
+
+.Add_Product_Form{
+    width: 25vw;
+}
+
+.Product_List{
+    width: 75vw;
+    padding: 1rem;
+    height: 75vh;
+    overflow: scroll;
+}
+
+.myFooter{
+    height: 10vh;
+    text-align: center;
+    background-color:  #063970;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#add_form{
+background-color:  #063970;
+}
+
+
+@media screen and (max-width:1000px) {
+    .dashboard{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Add_Product_Form{
+        width: auto;
+        height: auto;
+    }
+    .Product_List{
+        width: auto;
+        height: 500px;
+    }
+    .Navbar{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .myFooter{
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+
