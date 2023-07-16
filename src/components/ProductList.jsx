@@ -32,7 +32,7 @@ const ProductList = () => {
                   <td>{val.name}</td>
                   <td style={{width:"50%"}}>{val.description}</td>
                   <td>$ {val.price}</td>
-                  <td>
+                  <td id="button-group">
                     <EditButton data={val}/>
                     <DeleteButton data={val}/>
                   </td>

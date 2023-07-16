@@ -20,7 +20,9 @@ const DeleteButton = ({data}) => {
     }
     return (
       <>
-        <Button variant="outline-danger" onClick={handleShow}>
+        <Button variant="outline-danger" 
+        onClick={handleShow}
+        id='delete-btn'>
             {/* {console.log(data)} */}
           Delete
         </Button>
@@ -35,7 +37,8 @@ const DeleteButton = ({data}) => {
           </Modal.Header>
           <Modal.Body>Are you sure you want remove this Product</Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
+            <Button variant="secondary" 
+            onClick={handleClose}>
               cancel
             </Button>
             <Button 

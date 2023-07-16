@@ -61,7 +61,8 @@ const EditButton = ({data}) => {
         <Button variant="outline-success" onClick={(e)=>{
             handleShow()
             handleEditClick(e)
-        }}>
+        }}
+        id='edit-btn'>
          Edit
         </Button>
   

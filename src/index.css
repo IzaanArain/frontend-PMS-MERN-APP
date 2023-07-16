@@ -40,7 +40,17 @@
 #add_form{
 background-color:  #063970;
 }
+#delete-btn{
+     width: 40%;
+}
 
+#edit-btn{
+    width: 40%;
+}
+#button-group{
+    display: flex;
+    gap: 10%;
+}
 
 @media screen and (max-width:1000px) {
     .dashboard{
@@ -64,6 +74,17 @@ background-color:  #063970;
     .myFooter{
         flex-direction: column;
         height: auto;
+    }
+    #delete-btn{
+        width:100%;
+   }
+   
+   #edit-btn{
+       width: 100%;
+   }
+    #button-group{
+       flex-direction: column;
+       gap: 10px;
     }
 }
 
