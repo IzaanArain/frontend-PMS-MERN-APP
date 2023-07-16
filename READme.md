@@ -35,6 +35,13 @@ PMS is simple crud application that provides features such as adding, editing, r
 ## Dashboard
 ![dashboard](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/a23aa5f9-c794-4091-84e4-9b070a1f6280)
 
+## delete confirmation
+![delete_confirmation](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/75e41689-8b99-42b1-b483-f931489fda54)
+
+## Edit modal
+![Edit_modal](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/f31e3b84-16a3-4283-b72c-8054b57360e7)
+
+
 
 ## Authors
 - [Muhahmmad Izaan saqib](https://github.com/IzaanArain)
