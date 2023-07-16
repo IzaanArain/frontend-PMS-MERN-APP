@@ -31,7 +31,10 @@ PMS is simple crud application that provides features such as adding, editing, r
 * bootstrap
   * CSS library
 
-  ## PMS (Product management system) Dashboard
+# PMS (Product management system) Interface
+## Dashboard
+![dashboard](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/a23aa5f9-c794-4091-84e4-9b070a1f6280)
+
 
 ## Authors
 - [Muhahmmad Izaan saqib](https://github.com/IzaanArain)
