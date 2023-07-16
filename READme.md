@@ -10,7 +10,7 @@ PMS is simple crud application that provides features such as adding, editing, r
     //clone the repo
     git clone https://github.com/IzaanArain/frontend-PMS-MERN-APP.git
     // change the directory
-    cd EMS-summer-2023-Project-frontend
+    cd frontend-PMS-MERN-APP
     //install npm packages
     npm install
     //npm run dev
