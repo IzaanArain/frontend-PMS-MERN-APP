@@ -38,13 +38,13 @@ const DeleteButton = ({data}) => {
           <Modal.Body style={{textAlign:"center"}}>Are you sure you want remove this Product</Modal.Body>
           <Modal.Footer style={{display:"flex",justifyContent:"space-around"}}>
             <Button 
-            variant="primary" 
+            variant="outline-primary" 
             style={{width:"40%"}}
             onClick={handleClose}>
               cancel
             </Button>
             <Button 
-            variant="danger" 
+            variant="outline-danger" 
             style={{width:"40%"}}
             onClick={()=>{
                 HandleDeleteButton(_id)
