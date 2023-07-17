@@ -27,7 +27,7 @@ const DeleteButton = ({data}) => {
           Delete
         </Button>
   
-        <Modal 
+        <Modal
         show={show} 
         onHide={handleClose}
         backdrop="static"
@@ -35,14 +35,17 @@ const DeleteButton = ({data}) => {
           <Modal.Header closeButton>
             <Modal.Title>Delete Product</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Are you sure you want remove this Product</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" 
+          <Modal.Body style={{textAlign:"center"}}>Are you sure you want remove this Product</Modal.Body>
+          <Modal.Footer style={{display:"flex",justifyContent:"space-around"}}>
+            <Button 
+            variant="primary" 
+            style={{width:"40%"}}
             onClick={handleClose}>
               cancel
             </Button>
             <Button 
-            variant="primary" 
+            variant="danger" 
+            style={{width:"40%"}}
             onClick={()=>{
                 HandleDeleteButton(_id)
                 handleClose()
