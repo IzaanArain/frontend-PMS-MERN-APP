@@ -124,13 +124,13 @@ const EditButton = ({data}) => {
         onChange={editOnChange}/>
       </Form.Group> */}
 
-      <Button variant="primary" type="submit" style={{width:"100%"}}>
+      <Button variant="outline-primary" type="submit" style={{width:"100%"}}>
         Submit
       </Button>
     </Form>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose} style={{width:"100%"}}>
+            <Button variant="outline-secondary" onClick={handleClose} style={{width:"100%"}}>
               Close
             </Button>
           </Modal.Footer>
