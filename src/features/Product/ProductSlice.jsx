@@ -6,11 +6,14 @@ const initialState={
     isError:false
 }
 
+const url="http://localhost:5000"
+const new_url="https://careful-stingray.cyclic.app"
+
 export const getAllProductsAsync=createAsyncThunk(
     "products/getAllProductsAsync",
     async()=>{
         try{
-            const response=await fetch("http://localhost:5000/api/products/")
+            const response=await fetch(`${new_url}/api/products/`)
             if(response.ok){
                 const data=await response.json()
                 // console.log(data)
@@ -26,7 +29,7 @@ export const addProductAsync=createAsyncThunk(
     "products/addProductAsync",
     async(payload)=>{
         try{
-            const response=await fetch(`http://localhost:5000/api/products/`,
+            const response=await fetch(`${new_url}/api/products/`,
             {
                 method:"POST",
                 body:JSON.stringify({
@@ -54,7 +57,7 @@ export const DeleteProductAsync=createAsyncThunk(
     "products/DeleteProductAsync",
     async(payload)=>{
         try{
-            const response=await fetch(`http://localhost:5000/api/products/${payload.id}`,{
+            const response=await fetch(`${new_url}/api/products/${payload.id}`,{
                 method:"DELETE",
             })
             if(response.ok){
@@ -72,7 +75,7 @@ export const updateProductAsync=createAsyncThunk(
     "products/updateProductAsync",
     async(payload)=>{
         try{
-            const response=await fetch(`http://localhost:5000/api/products/${payload.id}`,{
+            const response=await fetch(`${new_url}/api/products/${payload.id}`,{
                 method:"PUT",
                 body:JSON.stringify({
                     name:payload.name,
