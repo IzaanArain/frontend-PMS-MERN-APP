@@ -51,7 +51,7 @@ const AddProduct = () => {
       </Form.Group>
 
       <Form.Group className="mb-3">
-        <Form.Label htmlFor="description">Description: imit to 100 characters</Form.Label>
+        <Form.Label htmlFor="description">Description: limit to 100 characters</Form.Label>
         <Form.Control 
         as="textarea"
         rows={5} 
