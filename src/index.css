@@ -52,6 +52,10 @@ background-color:  #063970;
     gap: 10%;
 }
 
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color:cyan;
+  }
+
 @media screen and (max-width:1000px) {
     .dashboard{
         height: auto;

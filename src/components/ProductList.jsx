@@ -16,7 +16,7 @@ const ProductList = () => {
   return (
     <>
       <div className="Product_List">
-        <table className="table table-striped table-bordered border-primary" style={{width:"100%"}}>
+        <table className="table table-striped table-bordered border-primary table-hover" style={{width:"100%"}}>
           <thead className="text-center">
             <tr>
               <th scope="col">Name</th>
