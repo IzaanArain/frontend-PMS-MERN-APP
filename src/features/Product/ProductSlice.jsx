@@ -7,7 +7,7 @@ const initialState={
 }
 
 const url="http://localhost:5000"
-const new_url="https://careful-stingray.cyclic.app"
+const new_url="https://kind-ruby-angelfish-cape.cyclic.app/"
 
 export const getAllProductsAsync=createAsyncThunk(
     "products/getAllProductsAsync",
