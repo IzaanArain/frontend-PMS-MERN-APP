@@ -116,9 +116,20 @@ const ProductSlice=createSlice({
         }
     },
     extraReducers:(builder)=>{
+        builder.addCase(getAllProductsAsync.pending,(state,action)=>{
+            state.isLoading=true;
+            state.isError=false;
+        });
         builder.addCase(getAllProductsAsync.fulfilled,(state,action)=>{
             state.products= action.payload.products
+            state.isLoading=false;
+            state.isError=false;
         });
+        builder.addCase(getAllProductsAsync.rejected,(state,action)=>{
+            state.isLoading=false
+            state.isError=true;
+        });
+
         builder.addCase(addProductAsync.fulfilled,(state,action)=>{
             state.products.push(action.payload.product)
         });
