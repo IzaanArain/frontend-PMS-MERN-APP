@@ -7,7 +7,7 @@ const initialState={
 }
 
 const url="http://localhost:5000"
-const new_url="https://kind-ruby-angelfish-cape.cyclic.app/"
+const new_url="https://kind-ruby-angelfish-cape.cyclic.app"
 
 export const getAllProductsAsync=createAsyncThunk(
     "products/getAllProductsAsync",
@@ -117,13 +117,14 @@ const ProductSlice=createSlice({
     },
     extraReducers:(builder)=>{
         builder.addCase(getAllProductsAsync.pending,(state,action)=>{
+            console.log("...Loading")
             state.isLoading=true;
             state.isError=false;
         });
         builder.addCase(getAllProductsAsync.fulfilled,(state,action)=>{
-            state.products= action.payload.products
             state.isLoading=false;
             state.isError=false;
+            state.products= action.payload.products
         });
         builder.addCase(getAllProductsAsync.rejected,(state,action)=>{
             state.isLoading=false
