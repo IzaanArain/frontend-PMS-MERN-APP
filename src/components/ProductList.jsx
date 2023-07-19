@@ -16,7 +16,7 @@ const ProductList = () => {
 
   return (
     <>
-      
+      {console.log(isLoading)}
         {isLoading ? <LoadingSpinner/> : (
          <div className="Product_List">
            <table className="table table-striped table-bordered border-primary table-hover" style={{width:"100%"}}>
@@ -46,6 +46,8 @@ const ProductList = () => {
         </table>
          </div>
         ) }
+        {console.log(isError)}
+        {isError && <h1>something went wrong</h1>}
     </>
   );
 };
