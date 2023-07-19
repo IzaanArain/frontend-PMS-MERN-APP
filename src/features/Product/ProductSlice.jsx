@@ -6,9 +6,8 @@ const initialState={
     isError:false
 }
 
-const url="http://localhost:5000"
-// const new_url="https://kind-ruby-angelfish-cape.cyclic.app"
-const new_url="https://backend-pms-mern-app.vercel.app"
+const new_url="http://localhost:5000"
+// const new_url=""
 
 export const getAllProductsAsync=createAsyncThunk(
     "products/getAllProductsAsync",
