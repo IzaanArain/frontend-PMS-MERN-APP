@@ -117,7 +117,7 @@ const ProductSlice=createSlice({
     },
     extraReducers:(builder)=>{
         builder.addCase(getAllProductsAsync.pending,(state,action)=>{
-            // console.log("...Loading")
+            console.log("...Loading")
             state.isLoading=true;
             state.isError=false;
         });
