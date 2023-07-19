@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
     <div className='Navbar'> 
         <h1>Product Management system</h1>
-        <h1>Products ({products.length})</h1>
+        <h3>Products ({products.length})</h3>
         <h4>izaansaquib@gmail.com</h4>
     </div>
     </>
