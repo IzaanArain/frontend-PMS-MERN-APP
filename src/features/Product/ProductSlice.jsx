@@ -128,6 +128,7 @@ const ProductSlice=createSlice({
             state.products= action.payload.products
         });
         builder.addCase(getAllProductsAsync.rejected,(state,action)=>{
+            console.log("something went wrong")
             state.isLoading=false
             state.isError=true;
         });
