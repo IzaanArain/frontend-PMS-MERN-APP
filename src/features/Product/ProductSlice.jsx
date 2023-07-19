@@ -7,7 +7,7 @@ const initialState={
 }
 
 // const new_url="http://localhost:5000"
-// const new_url="https://izaan-backend-pms.vercel.app"
+const new_url="https://izaan-backend-pms.vercel.app"
 
 export const getAllProductsAsync=createAsyncThunk(
     "products/getAllProductsAsync",
