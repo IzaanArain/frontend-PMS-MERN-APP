@@ -5,6 +5,7 @@ const Navbar = () => {
     <>
     <div className='Navbar'> 
         <h1>Product Management system</h1>
+        <h4>izaansaquib@gmail.com</h4>
     </div>
     </>
   )

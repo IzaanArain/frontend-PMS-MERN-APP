@@ -5,6 +5,7 @@
     color: white;
     height: 10vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
 }
@@ -28,15 +29,23 @@
 
 .myFooter{
     height: 10vh;
-    text-align: center;
     background-color:  #063970;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
 }
 
+.footer-logo a{
+    color: white;
+    margin: 0px 5px;
+    font-size: 30px;
+}
+#email{
+    color: white;
+    margin: 0px 5px;
+    font-size: 30px;
+}
 #add_form{
 background-color:  #063970;
 }
