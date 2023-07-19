@@ -1,7 +1,8 @@
 # Product Management System (PMS)
 PMS is simple crud application that provides features such as adding, editing, reading, and deleting events, allowing users to manage their events effectively. The application follows the CRUD (Create, Read, Update, Delete) operations, ensuring that all event-related tasks are performed correctly.This was built using the MERN stack, which includes MongoDB, Express.js, React, and Node.js.By leveraging these technologies, EMS offers a seamless experience for users to track their events, ensuring that their data is securely stored and easily accessible.
 
-
+# Deployed Project - Product Management System (PMS)
+https://izaan-frontend-pms.vercel.app/
 
 ## Features
 - User can read, create, delete, and update events
