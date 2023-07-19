@@ -122,13 +122,13 @@ const ProductSlice=createSlice({
             state.isError=false;
         });
         builder.addCase(getAllProductsAsync.fulfilled,(state,action)=>{
-            console.log("data fetched")
+            console.log("...data fetched")
             state.isLoading=false;
             state.isError=false;
             state.products= action.payload.products
         });
         builder.addCase(getAllProductsAsync.rejected,(state,action)=>{
-            console.log("something went wrong")
+            console.log("...something went wrong")
             state.isLoading=false
             state.isError=true;
         });
