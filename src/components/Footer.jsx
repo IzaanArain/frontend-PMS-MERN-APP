@@ -6,7 +6,7 @@ const Footer = () => {
    <>
     <div className='myFooter'>
       <AiFillGithub/>
-        <h3>izaansaquib@gmail.com</h3>
+        {/* <h3>izaansaquib@gmail.com</h3> */}
     </div>
    </>
   )
