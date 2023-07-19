@@ -122,6 +122,7 @@ const ProductSlice=createSlice({
             state.isError=false;
         });
         builder.addCase(getAllProductsAsync.fulfilled,(state,action)=>{
+            console.log("data fetched")
             state.isLoading=false;
             state.isError=false;
             state.products= action.payload.products
