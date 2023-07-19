@@ -4,9 +4,10 @@ import { useEffect } from "react";
 import { getAllProductsAsync } from "../features/Product/ProductSlice";
 import DeleteButton from "./DeleteButton";
 import EditButton from "./EditButton";
+import LoadingSpinner from "./LoadingSpinner";
 
 const ProductList = () => {
-  const { products } = useSelector((state) => state.products);
+  const { products,isLoading,isError } = useSelector((state) => state.products);
   // console.log(products)
   const dispatch = useDispatch();
   useEffect(() => {
@@ -16,7 +17,8 @@ const ProductList = () => {
   return (
     <>
       <div className="Product_List">
-        <table className="table table-striped table-bordered border-primary table-hover" style={{width:"100%"}}>
+        {isLoading ? <LoadingSpinner/> : (
+          <table className="table table-striped table-bordered border-primary table-hover" style={{width:"100%"}}>
           <thead className="text-center">
             <tr>
               <th scope="col">Name</th>
@@ -41,6 +43,7 @@ const ProductList = () => {
             })}
           </tbody>
         </table>
+        ) }
       </div>
     </>
   );
