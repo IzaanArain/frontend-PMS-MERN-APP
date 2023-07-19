@@ -34,15 +34,13 @@ https://izaan-frontend-pms.vercel.app/
 
 # PMS (Product management system) Interface
 ## Dashboard
-![dashboard](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/a23aa5f9-c794-4091-84e4-9b070a1f6280)
+![dashboard](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/7c0f4f23-3c77-4e5c-a886-2d35df254eba)
 
 ## delete confirmation
-![delete_confirmation](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/75e41689-8b99-42b1-b483-f931489fda54)
+![delete_confirmation](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/47690395-aec8-4f28-a02d-b742dee795f0)
 
 ## Edit modal
-![Edit_modal](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/f31e3b84-16a3-4283-b72c-8054b57360e7)
-
-
+![Edit_modal](https://github.com/IzaanArain/frontend-PMS-MERN-APP/assets/102476680/e0d4f9b6-f844-4933-b756-b3ad52764ef1)
 
 ## Authors
 - [Muhahmmad Izaan saqib](https://github.com/IzaanArain)
