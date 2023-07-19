@@ -11,7 +11,7 @@ const ProductList = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getAllProductsAsync());
-  }, [products,dispatch]);
+  }, [dispatch]);
 
   return (
     <>
